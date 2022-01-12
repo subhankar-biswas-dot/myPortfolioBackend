@@ -29,7 +29,7 @@ public class MailService {
         });
         Message msg = new MimeMessage(session);
         msg.setFrom(new InternetAddress("subhankarbiswas1480@gmail.com",false));
-        msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("subhankarbiswas1480@gmail.com"));
+        msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("subhankarbiswas30000@gmail.com"));
         msg.setSubject("Hiring Mail From : "+name);
         msg.setContent(content,"text/html");
         msg.setSentDate(new Date());
